@@ -6,7 +6,6 @@ type User {
     password: String!
     profilePicture: String
     gender: String!
-
 }
 type Query {
     users: [User!]
